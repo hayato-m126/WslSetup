@@ -12,4 +12,4 @@ sudo apt -y install manpages-ja manpages-ja-dev
 sudo apt -y install fonts-takao-pgothic
 
 # gui apps
-sudo apt -y install firefox firefox-locale-ja
+#sudo apt -y install firefox firefox-locale-ja
