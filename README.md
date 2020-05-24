@@ -8,4 +8,4 @@ Windowsに立てたX Serverを使ってGUIアプリも動かす
  - VcXsrv
  - MobaXterm
 2. GUIのアプリを立ち上げるコマンドを叩く
- - ./firefox_ja_input.sh
+ - ./firefox_with_ja_input.sh
