@@ -15,9 +15,3 @@ dbus-uuidgen | sudo tee /var/lib/dbus/machine-id
 # gui apps
 sudo apt -y install firefox firefox-locale-ja
 
-# add x environment variables
-echo "export DISPLAY=192.168.18.2:0.0" | tee -a ~/.bashrc
-echo "export GTK_IM_MODULE=fcitx" | tee -a ~/.bashrc
-echo "export XMODIFIERS=@im=fcitx" | tee -a ~/.bashrc
-echo "export QT_IM_MODULE=fcitx" | tee -a ~/.bashrc
-echo "export DefaultIMModule=fcitx" | tee -a ~/.bashrc

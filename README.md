@@ -1,2 +1,11 @@
 # WSL Setup
-WSLでubuntuで日本語環境を作ってGUIアプリを起動する
+WSLでubuntuの日本語環境を作る。
+
+Windowsに立てたX Serverを使ってGUIアプリも動かす
+
+# Usage
+1. X Windowのサーバーを起動する
+ - VcXsrv
+ - MobaXterm
+2. GUIのアプリを立ち上げるコマンドを叩く
+ - ./firefox_ja_input.sh
